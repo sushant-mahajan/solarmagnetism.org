@@ -1,0 +1,24 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Solar mark</title>
+  <desc id="desc">Stylized sun with orbital lines.</desc>
+  <defs>
+    <radialGradient id="sun" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 120) rotate(90) scale(84)">
+      <stop offset="0%" stop-color="#FFE9AB"/>
+      <stop offset="46%" stop-color="#F4B35B"/>
+      <stop offset="100%" stop-color="#D8652B"/>
+    </radialGradient>
+    <linearGradient id="orbit" x1="32" y1="52" x2="200" y2="184" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1A2940" stop-opacity="0.82"/>
+      <stop offset="100%" stop-color="#6E88A6" stop-opacity="0.75"/>
+    </linearGradient>
+  </defs>
+  <circle cx="120" cy="120" r="84" fill="url(#sun)"/>
+  <circle cx="120" cy="120" r="55" fill="#FFF8ED" opacity="0.36"/>
+  <circle cx="120" cy="120" r="22" fill="#FFF9EF" opacity="0.55"/>
+  <ellipse cx="120" cy="122" rx="88" ry="40" stroke="url(#orbit)" stroke-width="5" opacity="0.9"/>
+  <ellipse cx="120" cy="122" rx="88" ry="40" stroke="#F2B35D" stroke-width="1.5" opacity="0.45" transform="rotate(-22 120 122)"/>
+  <ellipse cx="120" cy="122" rx="88" ry="40" stroke="#1A2940" stroke-width="1.5" opacity="0.18" transform="rotate(35 120 122)"/>
+  <circle cx="186" cy="85" r="8" fill="#1A2940" opacity="0.82"/>
+  <circle cx="56" cy="171" r="5" fill="#1A2940" opacity="0.55"/>
+  <circle cx="92" cy="46" r="4" fill="#F7D998" opacity="0.95"/>
+</svg>
